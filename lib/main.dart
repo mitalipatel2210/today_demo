@@ -54,6 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text('Thank you',style: TextStyle(
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1,
+              color: Colors.red,
+              fontSize: 20,
+              backgroundColor: Colors.black,
+
+            ),),
           ],
         ),
       ),
