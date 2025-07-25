@@ -62,15 +62,16 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: Colors.black,
 
             ),),
-            // SizedBox(height: 10,),
-            // Text('Hello',style: TextStyle(
-            //   fontWeight: FontWeight.bold,
-            //   letterSpacing: 1,
-            //   color: Colors.red,
-            //   fontSize: 20,
-            //   backgroundColor: Colors.black,
-            //
-            // ),),
+            SizedBox(height: 10,),
+            Text('Hello',style: TextStyle(
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1,
+              color: Colors.red,
+              fontSize: 20,
+              backgroundColor: Colors.black,
+
+            ),),
+            Icon(Icons.ice_skating,size: 25,color: Colors.green,)
           ],
         ),
       ),
